@@ -22,6 +22,7 @@
 	var/icon/icon
 	var/icon_state
 
+
 /proc/icon_deserializer(var/savefile/F, var/path, var/datum/sandbox/sandbox, var/defaultIcon, var/defaultState)
 	var/iname
 	var/datum/iconDeserializerData/IDS = new()
